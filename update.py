@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-DATA_FILE = "./data/headlines.txt"
+DATA_FILE = "data/headlines.txt"
 
 response = requests.get(
     "https://www.dailymail.co.uk/news/headlines/index.html")
