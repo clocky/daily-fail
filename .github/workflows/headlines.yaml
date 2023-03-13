@@ -27,7 +27,7 @@ jobs:
         run: python update.py
 
       - name: Commit files
-        run:
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
