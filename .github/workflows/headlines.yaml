@@ -28,9 +28,6 @@ jobs:
       - name: Run Script
         run: |
           python update.py
-
-      - uses: actions/checkout@v3.3.0
-      - run: |
           git config --local user.name github-actions
           git config --local user.email github-actions@github.com
           git add .
