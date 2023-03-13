@@ -1,0 +1,43 @@
+[
+  {"label": "EVENT", "pattern": "Academy Awards"},
+  {"label": "EVENT", "pattern": "Commonwealth Day Service"},
+  {"label": "EVENT", "pattern": "Razzie Awards"},
+  {"label": "EVENT", "pattern": "Vanity Fair Oscars Party"},
+  {"label": "EVENT", "pattern": "Oscars"},
+
+  {"label": "ORG", "pattern": "Louis Vuitton"},
+  {"label": "ORG", "pattern": "Vanity Fair"},
+  {"label": "ORG", "pattern": "Versace"},
+  {"label": "ORG", "pattern": "Yitty"},
+
+  {"label": "WORK_OF_ART", "pattern": "Blonde"},
+  {"label": "WORK_OF_ART", "pattern": "Celebs Go Dating"},
+  {"label": "WORK_OF_ART", "pattern": "Game of Thrones"},
+  {"label": "WORK_OF_ART", "pattern": "Gogglebox"},
+  {"label": "WORK_OF_ART", "pattern": "Elvis"},
+  {"label": "WORK_OF_ART", "pattern": "Love Island"},
+  {"label": "WORK_OF_ART", "pattern": "The Banshees of Inisherin"},
+  {"label": "WORK_OF_ART", "pattern": "The Office"},
+  {"label": "WORK_OF_ART", "pattern": "The Traitors"},
+  {"label": "WORK_OF_ART", "pattern": "RRR"},
+
+  {"label": "PERSON", "pattern": "A$AP Rocky"},
+  {"label": "PERSON", "pattern": "Beyoncé"},
+  {"label": "PERSON", "pattern": "Chrissy Teigen"},
+  {"label": "PERSON", "pattern": "Jay-Z"},
+  {"label": "PERSON", "pattern": "Katie Price"},
+  {"label": "PERSON", "pattern": "Lana Del Rey"},
+  {"label": "PERSON", "pattern": "Leila Farzad"},
+  {"label": "PERSON", "pattern": "Lewis Largent"},
+  {"label": "PERSON", "pattern": "Lisa Marie Presley"},
+  {"label": "PERSON", "pattern": "Priscilla Presley"},
+  {"label": "PERSON", "pattern": "Morgan Freeman"},
+  {"label": "PERSON", "pattern": "Phillip Schofield"},
+  {"label": "PERSON", "pattern": "Rainn Wilson"},
+  {"label": "PERSON", "pattern": "Salma Hayek"},
+  {"label": "PERSON", "pattern": "Zoe Saldana"},
+
+  {"label": "PRODUCT", "pattern": "Vaseline"}, 
+
+  {"label": "FAC", "pattern": "Qudos Bank Arena"}, 
+]
