@@ -20,6 +20,7 @@ if response.ok:
     with open(DATA_FILE, "a") as file:
         for s in new_headlines:
             file.write(s + "\n")
+    print(f"Added {len(new_headlines)} new headlines...")
 
 else:
     print("Error: ", response.status_code)
