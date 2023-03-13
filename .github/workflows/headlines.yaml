@@ -1,17 +1,15 @@
 name: Retrieve latest headlines
 
-on: [workflow_dispatch]
-
-# on:
-#   schedule:
-#    - cron: '30 */1 * * *'
+on:
+  schedule:
+   - cron: '30 */4 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
-      CI_COMMIT_AUTHOR: Continuous Integration
+      CI_COMMIT_MESSAGE: Latest headlines from dailymail.co.uk
+      CI_COMMIT_AUTHOR: GitHub Actions
 
     steps:
     - uses: actions/checkout@v3.3.0
