@@ -12,7 +12,7 @@ if response.ok:
         new_headlines.append(headline.get_text(strip=True))
 
     with open(DATA_FILE, "r") as file:
-        existing_headlines = file.readlines()[-250:]
+        existing_headlines = file.readlines()
         existing_headlines = [line.strip() for line in existing_headlines]
 
     new_headlines = [s for s in new_headlines if s not in existing_headlines]
