@@ -1,0 +1,12 @@
+<View>
+	<Labels name="label" toName="text">
+		<Label value="ORG" background="#e81123" />
+		<Label value="PERSON" background="#0063B1" />
+		<Label value="GPE" background="#BF0077" />
+		<Label value="FAC" background="#FF8C00" />
+		<Label value="NORP" background="#498205" />
+		<Label value="EVENT" background="#0099BC" />
+		<Label value="WORK_OF_ART" background="#00CC6A" />
+	</Labels>
+	<Text name="text" value="$text" />
+</View>
